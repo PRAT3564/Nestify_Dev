@@ -15,17 +15,12 @@ import mysql.connector
 load_dotenv()
 
 DB_USER = os.getenv("DB_USER")
-print(os.getenv("DB_USER"))
 DB_PASSWORD = os.getenv("DB_PASSWORD")
-print(os.getenv("DB_PASSWORD"))
 DB_HOST = os.getenv("DB_HOST")
-print(os.getenv("DB_HOST"))
 DB_PORT = os.getenv("DB_PORT")
-print(os.getenv("DB_PORT"))
 DB_NAME = os.getenv("DB_NAME")
-print(os.getenv("DB_NAME"))
 
-connection_string = f"mysql+mysqlconnector://root:Z4326%40oro%23@localhost:3306/nestify_db"
+connection_string = f"mysql+mysqlconnector://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
 # ---------------------------
 # MySQL Engine
