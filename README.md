@@ -12,6 +12,8 @@ Nestify converts the request into **database queries using an LLM**, retrieves r
 Nestify currently has a **working MVP (Minimum Viable Product)**.  
 Many new features and improvements are planned in upcoming updates.
 
+# 🖥 UI Preview
+<img width="1895" height="780" alt="image" src="https://github.com/user-attachments/assets/5c16fac5-46fc-4203-967c-6d7c34896f8c" />
 ---
 
 # 🚀 Features (MVP)
