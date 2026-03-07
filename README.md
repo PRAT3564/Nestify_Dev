@@ -4,7 +4,7 @@ Nestify AI is an **AI-powered real estate search assistant** that allows users t
 
 Instead of using traditional filters, users can simply type queries like:
 
-> "Find 2BHK apartments in Mumbai under ₹80L"
+> "Find 2BHK in Gurgaon under 36000000"
 
 Nestify converts the request into **database queries using an LLM**, retrieves relevant property data, and displays the results through an interactive UI.
 
@@ -22,7 +22,7 @@ Users can search for properties using conversational queries.
 Example:
 
 ```text
-Find 2BHK in Mumbai South West under 88L
+Find 2BHK in Gurgaon under 36000000
 ```
 
 ---
