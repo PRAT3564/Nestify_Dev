@@ -126,7 +126,7 @@ git clone https://github.com/PRAT3564/Nestify_Dev.git
 
 ---
 
-### 3️⃣ Configure Groq API
+### 2️⃣ Configure Groq API
 
 Add your API key in the agent file or as an environment variable:
 
@@ -136,7 +136,7 @@ client = Groq(api_key="YOUR_GROQ_API_KEY")
 
 ---
 
-### 4️⃣ Configure MySQL Database
+### 3️⃣ Configure MySQL Database
 
 Update the database connection string:
 
@@ -146,7 +146,7 @@ DB_URI = f"mysql+mysqlconnector://{os.getenv('DB_USER')}:{os.getenv('DB_PASSWORD
 
 ---
 
-### 5️⃣ Run the Application
+### 4️⃣ Run the Application
 
 Start the UI:
 
