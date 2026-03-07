@@ -83,13 +83,8 @@ Groq LLM (Query → SQL)
  ↓
 MySQL Database
  ↓
-Property Results
- ↓
-Groq LLM (Results → Natural Language)
- ↓
-Property Cards UI
+(Property Results + Property Cards)
 ```
-
 ---
 
 # 🧰 MVP Tech Stack
