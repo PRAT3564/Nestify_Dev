@@ -35,7 +35,7 @@ Example:
 User Query:
 
 ```text
-Find 2BHK in Mumbai under 80L
+Find 2BHK in Gurgaon under 36000000
 ```
 
 Generated SQL:
@@ -43,9 +43,9 @@ Generated SQL:
 ```sql
 SELECT *
 FROM unified_properties
-WHERE city = 'Mumbai'
+WHERE city = 'Gurgaon'
 AND bedrooms = 2
-AND price_total < 8000000
+AND price_total <= 36000000
 LIMIT 5;
 ```
 
@@ -66,15 +66,9 @@ Search results are displayed in a clean property card layout including:
 ### ⚡ Fast AI Inference
 Nestify uses **Groq LLM API** for fast responses.
 
-Recommended model:
-
-```
-llama-3.3-70b-versatile
-```
-
 ---
 
-# 🏗 Architecture
+# 🏗 MVP Architecture
 
 ```
 User
@@ -96,7 +90,7 @@ Property Cards UI
 
 ---
 
-# 🧰 Tech Stack
+# 🧰 MVP Tech Stack
 
 | Layer | Technology |
 |------|-------------|
